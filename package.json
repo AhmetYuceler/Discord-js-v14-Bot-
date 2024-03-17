@@ -1,0 +1,57 @@
+{
+  "dependencies": {
+    "@discordjs/builders": "^0.14.0-dev.1650672503-3617093",
+    "@discordjs/rest": "^0.4.1",
+    "async-and-quick": "^1.0.1",
+    "chalk": "^4.1.1",
+    "chillout": "^5.0.0",
+    "chokidar": "^3.5.3",
+    "discord-api-types": "^0.23.1",
+    "discord-hybrid-sharding": "^1.6.8",
+    "discord.js": "^14.0.3",
+    "enquirer": "^2.3.6",
+    "extract-zip": "^2.0.1",
+    "lodash": "^4.17.21",
+    "plsargs": "^0.1.6",
+    "recursive-readdir": "^2.2.2",
+    "redis": "^4.2.0",
+    "stuffs": "^0.1.11"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/lodash": "^4.14.178",
+    "@types/node": "^15.12.2",
+    "@types/recursive-readdir": "^2.2.0"
+  },
+  "name": "ahmet-yuceler",
+  "version": "3.0.0",
+  "description": "Kullanımı basit ancak bir yandanda içinde birçek özellik barındıran discord bot altyapısı.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://bento.com/ahmetyuceler"
+  },
+  "author": "Ahmet Yuceler",
+  "license": "GPL-v3-or-later",
+  "private": true,
+  "scripts": {
+    "interaksiyon": "node ./other/generator.js interaction",
+    "interaction": "node ./other/generator.js interaction",
+    "olay": "node ./other/generator.js event",
+    "event": "node ./other/generator.js event",
+    "baslat": "node --expose-gc ./main.js",
+    "start": "node --expose-gc ./main.js",
+    "tipler": "node ./other/typesGenerator.js",
+    "types": "node ./other/typesGenerator.js",
+    "gelistirici": "node ./watchChanges.js",
+    "dev": "node ./watchChanges.js"
+  },
+  "bugs": {
+    "url": "https://bento.com/ahmetyuceler"
+  },
+  "homepage": "bento.com/ahmetyuceler",
+  "keywords": [],
+  "engines": {
+    "node": "^18.0.0"
+  }
+}
